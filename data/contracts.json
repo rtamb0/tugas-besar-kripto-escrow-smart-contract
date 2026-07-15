@@ -1,1 +1,126 @@
-{}
+{
+    "CONTRACT_ESCROW_5805EC396696": {
+        "contract_address": "CONTRACT_ESCROW_5805EC396696",
+        "contract_type": "ESCROW",
+        "owner": "ADDR_697112f655b164d9f975e5b2e766783b0971fdb3",
+        "orders": {
+            "NEG-001": {
+                "buyer": "ADDR_86384aa5389a32025410aa1dc67dedec84f79d0d",
+                "seller": "ADDR_65637e5e646960b933b1c9df282ed362d5ef7029",
+                "arbiter": "ADDR_bacaa4f6f4342aad1bb069ef9cc714639511c9ab",
+                "amount": 50,
+                "status": "CREATED",
+                "locked_amount": 0,
+                "item_description": "Negative Test Item",
+                "created_at": "2026-07-14 22:55:45",
+                "updated_at": "2026-07-14 22:55:45"
+            },
+            "NEG-003": {
+                "buyer": "ADDR_86384aa5389a32025410aa1dc67dedec84f79d0d",
+                "seller": "ADDR_65637e5e646960b933b1c9df282ed362d5ef7029",
+                "arbiter": "ADDR_bacaa4f6f4342aad1bb069ef9cc714639511c9ab",
+                "amount": 50,
+                "status": "CREATED",
+                "locked_amount": 0,
+                "item_description": "Invalid Transition Item",
+                "created_at": "2026-07-14 22:57:03",
+                "updated_at": "2026-07-14 22:57:03"
+            },
+            "NEG-004": {
+                "buyer": "ADDR_86384aa5389a32025410aa1dc67dedec84f79d0d",
+                "seller": "ADDR_65637e5e646960b933b1c9df282ed362d5ef7029",
+                "arbiter": "ADDR_bacaa4f6f4342aad1bb069ef9cc714639511c9ab",
+                "amount": 50,
+                "status": "COMPLETED",
+                "locked_amount": 0,
+                "item_description": "Double Release Test Item",
+                "created_at": "2026-07-14 22:59:56",
+                "updated_at": "2026-07-14 23:00:46"
+            },
+            "NEG-005": {
+                "buyer": "ADDR_86384aa5389a32025410aa1dc67dedec84f79d0d",
+                "seller": "ADDR_65637e5e646960b933b1c9df282ed362d5ef7029",
+                "arbiter": "ADDR_bacaa4f6f4342aad1bb069ef9cc714639511c9ab",
+                "amount": 50,
+                "status": "CREATED",
+                "locked_amount": 0,
+                "item_description": "Original Signature Test Item",
+                "created_at": "2026-07-14 23:01:47",
+                "updated_at": "2026-07-14 23:01:47"
+            }
+        },
+        "events": [
+            {
+                "event": "ContractDeployed",
+                "tx_id": "TX_DEPLOY_b20da32219114779b7fe494b35e9c357",
+                "timestamp": "2026-07-14 22:55:16",
+                "contract_address": "CONTRACT_ESCROW_5805EC396696",
+                "owner": "ADDR_697112f655b164d9f975e5b2e766783b0971fdb3"
+            },
+            {
+                "event": "OrderCreated",
+                "tx_id": "TX_CALL_1f536bacad5949d3bd9827d17b6f12c8",
+                "timestamp": "2026-07-14 22:55:45",
+                "order_id": "NEG-001",
+                "buyer": "ADDR_86384aa5389a32025410aa1dc67dedec84f79d0d",
+                "seller": "ADDR_65637e5e646960b933b1c9df282ed362d5ef7029",
+                "arbiter": "ADDR_bacaa4f6f4342aad1bb069ef9cc714639511c9ab",
+                "amount": 50
+            },
+            {
+                "event": "OrderCreated",
+                "tx_id": "TX_CALL_de74ff5b58624fd5895a7eb03fbd849e",
+                "timestamp": "2026-07-14 22:57:03",
+                "order_id": "NEG-003",
+                "buyer": "ADDR_86384aa5389a32025410aa1dc67dedec84f79d0d",
+                "seller": "ADDR_65637e5e646960b933b1c9df282ed362d5ef7029",
+                "arbiter": "ADDR_bacaa4f6f4342aad1bb069ef9cc714639511c9ab",
+                "amount": 50
+            },
+            {
+                "event": "OrderCreated",
+                "tx_id": "TX_CALL_e3bf8c92c9244ef7a3b185357537be72",
+                "timestamp": "2026-07-14 22:59:56",
+                "order_id": "NEG-004",
+                "buyer": "ADDR_86384aa5389a32025410aa1dc67dedec84f79d0d",
+                "seller": "ADDR_65637e5e646960b933b1c9df282ed362d5ef7029",
+                "arbiter": "ADDR_bacaa4f6f4342aad1bb069ef9cc714639511c9ab",
+                "amount": 50
+            },
+            {
+                "event": "OrderFunded",
+                "tx_id": "TX_CALL_3763e6dcb82c480c9cf7fe84b4c77a03",
+                "timestamp": "2026-07-14 23:00:15",
+                "order_id": "NEG-004",
+                "buyer": "ADDR_86384aa5389a32025410aa1dc67dedec84f79d0d",
+                "locked_amount": 50
+            },
+            {
+                "event": "ShipmentConfirmed",
+                "tx_id": "TX_CALL_24b4392a5c2f4d9e9c76d0b17e5837f1",
+                "timestamp": "2026-07-14 23:00:31",
+                "order_id": "NEG-004",
+                "seller": "ADDR_65637e5e646960b933b1c9df282ed362d5ef7029"
+            },
+            {
+                "event": "OrderCompleted",
+                "tx_id": "TX_CALL_5291a95c4fe647528e5f59bec377f429",
+                "timestamp": "2026-07-14 23:00:46",
+                "order_id": "NEG-004",
+                "buyer": "ADDR_86384aa5389a32025410aa1dc67dedec84f79d0d",
+                "seller": "ADDR_65637e5e646960b933b1c9df282ed362d5ef7029",
+                "released_amount": 50
+            },
+            {
+                "event": "OrderCreated",
+                "tx_id": "TX_CALL_53763add563c42a69f4b5ff6ce7819c8",
+                "timestamp": "2026-07-14 23:01:47",
+                "order_id": "NEG-005",
+                "buyer": "ADDR_86384aa5389a32025410aa1dc67dedec84f79d0d",
+                "seller": "ADDR_65637e5e646960b933b1c9df282ed362d5ef7029",
+                "arbiter": "ADDR_bacaa4f6f4342aad1bb069ef9cc714639511c9ab",
+                "amount": 50
+            }
+        ]
+    }
+}

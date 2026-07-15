@@ -1,1 +1,357 @@
-[]
+[
+    {
+        "height": 0,
+        "timestamp": "2026-07-14 22:55:06",
+        "transactions": [],
+        "prev_hash": "0",
+        "nonce": 81,
+        "difficulty": 2,
+        "block_hash": "0032c34670a1f7041885a15658c68b408028f654f2eb9f300349fa4fdbfd8653"
+    },
+    {
+        "height": 1,
+        "timestamp": "2026-07-14 22:55:06",
+        "transactions": [
+            {
+                "tx_id": "COINBASE_684ad658e66943ddb0ab1432cd8007ca",
+                "type": "coinbase",
+                "to": "ADDR_86384aa5389a32025410aa1dc67dedec84f79d0d",
+                "amount": 100,
+                "timestamp": "2026-07-14 22:55:06"
+            }
+        ],
+        "prev_hash": "0032c34670a1f7041885a15658c68b408028f654f2eb9f300349fa4fdbfd8653",
+        "nonce": 72,
+        "difficulty": 2,
+        "block_hash": "00d573274cb3e81a6bcbd3bbcba510e15664285f278c684bbe15401414cc5a86"
+    },
+    {
+        "height": 2,
+        "timestamp": "2026-07-14 22:55:31",
+        "transactions": [
+            {
+                "tx_id": "COINBASE_78133d2e8494405e9115070beff80177",
+                "type": "coinbase",
+                "to": "ADDR_2dd1876afd7078f1c247c7672bea527361845ee6",
+                "amount": 100,
+                "timestamp": "2026-07-14 22:55:31"
+            },
+            {
+                "tx_id": "TX_DEPLOY_b20da32219114779b7fe494b35e9c357",
+                "type": "contract_deploy",
+                "contract_address": "CONTRACT_ESCROW_5805EC396696",
+                "contract_type": "ESCROW",
+                "owner": "ADDR_697112f655b164d9f975e5b2e766783b0971fdb3",
+                "nonce": 1,
+                "timestamp": "2026-07-14 22:55:16",
+                "public_key": "19d9c622e13f64d393a9a01bdfed93dbbab9b284072bdd5289dc938bda2e6af73e998527b6ee794b9030a4a987af941ac730cbcb03587965bfc7cac39159faa2",
+                "signature": "90e33bded7a274f08e5e318755bcfd6bc57ac4424103b1d82eff37d9bbe5b5ee02958b961e524a432b1ae03b983c9b768083eff96febfbfc7e1e31c6181a298e"
+            }
+        ],
+        "prev_hash": "00d573274cb3e81a6bcbd3bbcba510e15664285f278c684bbe15401414cc5a86",
+        "nonce": 669,
+        "difficulty": 2,
+        "block_hash": "00d123e72c5ae97b0248b9307defd8c958e79c0158249bfc01452e4e319b44ec"
+    },
+    {
+        "height": 3,
+        "timestamp": "2026-07-14 22:55:51",
+        "transactions": [
+            {
+                "tx_id": "COINBASE_0e123e4cd6c04a6cbd71aa50747dc3c4",
+                "type": "coinbase",
+                "to": "ADDR_2dd1876afd7078f1c247c7672bea527361845ee6",
+                "amount": 100,
+                "timestamp": "2026-07-14 22:55:51"
+            },
+            {
+                "tx_id": "TX_CALL_1f536bacad5949d3bd9827d17b6f12c8",
+                "type": "contract_call",
+                "contract_address": "CONTRACT_ESCROW_5805EC396696",
+                "method": "create_order",
+                "params": {
+                    "order_id": "NEG-001",
+                    "seller": "ADDR_65637e5e646960b933b1c9df282ed362d5ef7029",
+                    "arbiter": "ADDR_bacaa4f6f4342aad1bb069ef9cc714639511c9ab",
+                    "amount": 50,
+                    "item_description": "Negative Test Item"
+                },
+                "caller": "ADDR_86384aa5389a32025410aa1dc67dedec84f79d0d",
+                "nonce": 1,
+                "timestamp": "2026-07-14 22:55:45",
+                "public_key": "f23885815e8116ec5436fac0e18eca4d23d82d1a08e0e3f394407097bad51cedad89651b278018a8fcc95c64f6a2bc44d71cf3dd28a004f713e731f711d9a7c6",
+                "signature": "72b729eb1efac33707c32caaeecb6bf9e969afd3aec64abcc682a1605d7d86d7a30ea98745d03efbd9602416a4d6b2c034c86271963e52ce836c466020272278"
+            }
+        ],
+        "prev_hash": "00d123e72c5ae97b0248b9307defd8c958e79c0158249bfc01452e4e319b44ec",
+        "nonce": 55,
+        "difficulty": 2,
+        "block_hash": "0017e2c7120113c16e7548d732c95454526c9aa7dc9e34c910b1fb09243b7ca9"
+    },
+    {
+        "height": 4,
+        "timestamp": "2026-07-14 22:56:41",
+        "transactions": [
+            {
+                "tx_id": "COINBASE_f5830b8876a54c9491b95f66e109b536",
+                "type": "coinbase",
+                "to": "ADDR_2dd1876afd7078f1c247c7672bea527361845ee6",
+                "amount": 100,
+                "timestamp": "2026-07-14 22:56:41"
+            }
+        ],
+        "prev_hash": "0017e2c7120113c16e7548d732c95454526c9aa7dc9e34c910b1fb09243b7ca9",
+        "nonce": 291,
+        "difficulty": 2,
+        "block_hash": "004854f0555d64bcd4a30848dc6362db72ef04f5511429573616ebd3fe65c7b5"
+    },
+    {
+        "height": 5,
+        "timestamp": "2026-07-14 22:57:19",
+        "transactions": [
+            {
+                "tx_id": "COINBASE_b616f95483924c629a569c99915a3d0f",
+                "type": "coinbase",
+                "to": "ADDR_2dd1876afd7078f1c247c7672bea527361845ee6",
+                "amount": 100,
+                "timestamp": "2026-07-14 22:57:19"
+            },
+            {
+                "tx_id": "TX_CALL_de74ff5b58624fd5895a7eb03fbd849e",
+                "type": "contract_call",
+                "contract_address": "CONTRACT_ESCROW_5805EC396696",
+                "method": "create_order",
+                "params": {
+                    "order_id": "NEG-003",
+                    "seller": "ADDR_65637e5e646960b933b1c9df282ed362d5ef7029",
+                    "arbiter": "ADDR_bacaa4f6f4342aad1bb069ef9cc714639511c9ab",
+                    "amount": 50,
+                    "item_description": "Invalid Transition Item"
+                },
+                "caller": "ADDR_86384aa5389a32025410aa1dc67dedec84f79d0d",
+                "nonce": 2,
+                "timestamp": "2026-07-14 22:57:03",
+                "public_key": "f23885815e8116ec5436fac0e18eca4d23d82d1a08e0e3f394407097bad51cedad89651b278018a8fcc95c64f6a2bc44d71cf3dd28a004f713e731f711d9a7c6",
+                "signature": "013d7690371056f197d148ef983eed96ed0618207f814408f46467f099bf2a0e37d83b4b004762892c0fce9d880ec006fdc4ab4c3f677bf51d90f21c75d7012d"
+            }
+        ],
+        "prev_hash": "004854f0555d64bcd4a30848dc6362db72ef04f5511429573616ebd3fe65c7b5",
+        "nonce": 257,
+        "difficulty": 2,
+        "block_hash": "003fa8edeea3aecb68f7c8ff847b36f782886b07a005452e9bcba190cd4f1784"
+    },
+    {
+        "height": 6,
+        "timestamp": "2026-07-14 22:57:40",
+        "transactions": [
+            {
+                "tx_id": "COINBASE_656fa9ff2fb4418ab19c85fe6cbcdb07",
+                "type": "coinbase",
+                "to": "ADDR_2dd1876afd7078f1c247c7672bea527361845ee6",
+                "amount": 100,
+                "timestamp": "2026-07-14 22:57:40"
+            }
+        ],
+        "prev_hash": "003fa8edeea3aecb68f7c8ff847b36f782886b07a005452e9bcba190cd4f1784",
+        "nonce": 154,
+        "difficulty": 2,
+        "block_hash": "0021faef3da60470f56e8979b77e4d47798cbf5966d549d812f6af8848b5735d"
+    },
+    {
+        "height": 7,
+        "timestamp": "2026-07-14 22:58:09",
+        "transactions": [
+            {
+                "tx_id": "COINBASE_9f0a64a49f774767b1ab206ce363fd21",
+                "type": "coinbase",
+                "to": "ADDR_2dd1876afd7078f1c247c7672bea527361845ee6",
+                "amount": 100,
+                "timestamp": "2026-07-14 22:58:09"
+            }
+        ],
+        "prev_hash": "0021faef3da60470f56e8979b77e4d47798cbf5966d549d812f6af8848b5735d",
+        "nonce": 308,
+        "difficulty": 2,
+        "block_hash": "00de8b9557848adb3ec1d6c2bab913d77847168d3a3813d36ca3e13d30b49fbf"
+    },
+    {
+        "height": 8,
+        "timestamp": "2026-07-14 23:00:02",
+        "transactions": [
+            {
+                "tx_id": "COINBASE_6e6541ee838f4bcf9b721007dbb14af2",
+                "type": "coinbase",
+                "to": "ADDR_2dd1876afd7078f1c247c7672bea527361845ee6",
+                "amount": 100,
+                "timestamp": "2026-07-14 23:00:02"
+            },
+            {
+                "tx_id": "TX_CALL_e3bf8c92c9244ef7a3b185357537be72",
+                "type": "contract_call",
+                "contract_address": "CONTRACT_ESCROW_5805EC396696",
+                "method": "create_order",
+                "params": {
+                    "order_id": "NEG-004",
+                    "seller": "ADDR_65637e5e646960b933b1c9df282ed362d5ef7029",
+                    "arbiter": "ADDR_bacaa4f6f4342aad1bb069ef9cc714639511c9ab",
+                    "amount": 50,
+                    "item_description": "Double Release Test Item"
+                },
+                "caller": "ADDR_86384aa5389a32025410aa1dc67dedec84f79d0d",
+                "nonce": 4,
+                "timestamp": "2026-07-14 22:59:56",
+                "public_key": "f23885815e8116ec5436fac0e18eca4d23d82d1a08e0e3f394407097bad51cedad89651b278018a8fcc95c64f6a2bc44d71cf3dd28a004f713e731f711d9a7c6",
+                "signature": "cbeda0c671b7b119b008af0fd4cefdeb367a5f924cdc9484f91c77c3f6cbb2e545887a2241ccc9ab84a234036afd72c025375129dc010497270f023c20db36b7"
+            }
+        ],
+        "prev_hash": "00de8b9557848adb3ec1d6c2bab913d77847168d3a3813d36ca3e13d30b49fbf",
+        "nonce": 757,
+        "difficulty": 2,
+        "block_hash": "00653d14594fd15a52a09f2f41170fc0ed221c01e2dc76c86b3dfe850b37171f"
+    },
+    {
+        "height": 9,
+        "timestamp": "2026-07-14 23:00:19",
+        "transactions": [
+            {
+                "tx_id": "COINBASE_b1115f6a349242e4962217e87beb4d5a",
+                "type": "coinbase",
+                "to": "ADDR_2dd1876afd7078f1c247c7672bea527361845ee6",
+                "amount": 100,
+                "timestamp": "2026-07-14 23:00:19"
+            },
+            {
+                "tx_id": "TX_CALL_3763e6dcb82c480c9cf7fe84b4c77a03",
+                "type": "contract_call",
+                "contract_address": "CONTRACT_ESCROW_5805EC396696",
+                "method": "fund_order",
+                "params": {
+                    "order_id": "NEG-004"
+                },
+                "caller": "ADDR_86384aa5389a32025410aa1dc67dedec84f79d0d",
+                "nonce": 5,
+                "timestamp": "2026-07-14 23:00:15",
+                "public_key": "f23885815e8116ec5436fac0e18eca4d23d82d1a08e0e3f394407097bad51cedad89651b278018a8fcc95c64f6a2bc44d71cf3dd28a004f713e731f711d9a7c6",
+                "signature": "e1299cbf388a135eaca4b24176a705e8a482755c69f4cc7dd609514045390211299223a7020de339bf82d08a82d3366941aef3c0c838cfb0a6d12960c4944295"
+            }
+        ],
+        "prev_hash": "00653d14594fd15a52a09f2f41170fc0ed221c01e2dc76c86b3dfe850b37171f",
+        "nonce": 256,
+        "difficulty": 2,
+        "block_hash": "00d0d3a375e48370b92ea0b58f8007315a53ae8bfe4bc9aceef2bb779425f2de"
+    },
+    {
+        "height": 10,
+        "timestamp": "2026-07-14 23:00:36",
+        "transactions": [
+            {
+                "tx_id": "COINBASE_0b4c66c678284ca8ad5942124c17aaf8",
+                "type": "coinbase",
+                "to": "ADDR_2dd1876afd7078f1c247c7672bea527361845ee6",
+                "amount": 100,
+                "timestamp": "2026-07-14 23:00:36"
+            },
+            {
+                "tx_id": "TX_CALL_24b4392a5c2f4d9e9c76d0b17e5837f1",
+                "type": "contract_call",
+                "contract_address": "CONTRACT_ESCROW_5805EC396696",
+                "method": "confirm_shipment",
+                "params": {
+                    "order_id": "NEG-004"
+                },
+                "caller": "ADDR_65637e5e646960b933b1c9df282ed362d5ef7029",
+                "nonce": 2,
+                "timestamp": "2026-07-14 23:00:31",
+                "public_key": "c1ef976e914fe75d868949a67b6df11fb3926adca49bfca2ab5ed9af2ccc48692c05326a48f26cf25fc303b85fb463f5bbb0a01163bf95fda6b12504fc3521b6",
+                "signature": "b579b1fffebc1363008cbb954f5dea553477f377f4952fc372cdca98613a02e598a17737dffe770330324926f8701c9e79ae9278b97208901011c11e57e376d8"
+            }
+        ],
+        "prev_hash": "00d0d3a375e48370b92ea0b58f8007315a53ae8bfe4bc9aceef2bb779425f2de",
+        "nonce": 502,
+        "difficulty": 2,
+        "block_hash": "0079ea15151f72ac5aa86a694fea131d2bfce105dc782d69817e8b8c01c3702e"
+    },
+    {
+        "height": 11,
+        "timestamp": "2026-07-14 23:00:51",
+        "transactions": [
+            {
+                "tx_id": "COINBASE_39fb4a827ea5458ba29b6e58253f6d04",
+                "type": "coinbase",
+                "to": "ADDR_2dd1876afd7078f1c247c7672bea527361845ee6",
+                "amount": 100,
+                "timestamp": "2026-07-14 23:00:51"
+            },
+            {
+                "tx_id": "TX_CALL_5291a95c4fe647528e5f59bec377f429",
+                "type": "contract_call",
+                "contract_address": "CONTRACT_ESCROW_5805EC396696",
+                "method": "confirm_received",
+                "params": {
+                    "order_id": "NEG-004"
+                },
+                "caller": "ADDR_86384aa5389a32025410aa1dc67dedec84f79d0d",
+                "nonce": 6,
+                "timestamp": "2026-07-14 23:00:46",
+                "public_key": "f23885815e8116ec5436fac0e18eca4d23d82d1a08e0e3f394407097bad51cedad89651b278018a8fcc95c64f6a2bc44d71cf3dd28a004f713e731f711d9a7c6",
+                "signature": "b84bffccc42d23f4359009c767e6d5393233982d24687fd28d40cc93b550e5fc7bf035b9691c3e4ca3a718c4ae0780fdb998784bf294b531e6eadec63a7d563d"
+            }
+        ],
+        "prev_hash": "0079ea15151f72ac5aa86a694fea131d2bfce105dc782d69817e8b8c01c3702e",
+        "nonce": 546,
+        "difficulty": 2,
+        "block_hash": "00dfc4eb8d02f845e82ea636bc12e0409f7ee53750d6ca1e019a59f361b1e615"
+    },
+    {
+        "height": 12,
+        "timestamp": "2026-07-14 23:01:29",
+        "transactions": [
+            {
+                "tx_id": "COINBASE_0f434e8d7fe741529876464cfdc0c30a",
+                "type": "coinbase",
+                "to": "ADDR_2dd1876afd7078f1c247c7672bea527361845ee6",
+                "amount": 100,
+                "timestamp": "2026-07-14 23:01:29"
+            }
+        ],
+        "prev_hash": "00dfc4eb8d02f845e82ea636bc12e0409f7ee53750d6ca1e019a59f361b1e615",
+        "nonce": 189,
+        "difficulty": 2,
+        "block_hash": "002f1af91fa8e304299448dca487af8d33f5dc6737fe299cd082e030777d4767"
+    },
+    {
+        "height": 13,
+        "timestamp": "2026-07-14 23:05:48",
+        "transactions": [
+            {
+                "tx_id": "COINBASE_3d8ce41584b5455b81159abc0b2eb934",
+                "type": "coinbase",
+                "to": "ADDR_2dd1876afd7078f1c247c7672bea527361845ee6",
+                "amount": 100,
+                "timestamp": "2026-07-14 23:05:48"
+            },
+            {
+                "tx_id": "TX_CALL_53763add563c42a69f4b5ff6ce7819c8",
+                "type": "contract_call",
+                "contract_address": "CONTRACT_ESCROW_5805EC396696",
+                "method": "create_order",
+                "params": {
+                    "order_id": "NEG-005",
+                    "seller": "ADDR_65637e5e646960b933b1c9df282ed362d5ef7029",
+                    "arbiter": "ADDR_bacaa4f6f4342aad1bb069ef9cc714639511c9ab",
+                    "amount": 50,
+                    "item_description": "Original Signature Test Item"
+                },
+                "caller": "ADDR_86384aa5389a32025410aa1dc67dedec84f79d0d",
+                "nonce": 8,
+                "timestamp": "2026-07-14 23:01:47",
+                "public_key": "f23885815e8116ec5436fac0e18eca4d23d82d1a08e0e3f394407097bad51cedad89651b278018a8fcc95c64f6a2bc44d71cf3dd28a004f713e731f711d9a7c6",
+                "signature": "01dc1d0e3e99e7b4d299e57ed5e07711711d402332a2bae204844e4a5a8b404724ce7d9a10fd3f069b20260548d72fb7e42ea4de9f2d7cc1017bfed0868fad04"
+            }
+        ],
+        "prev_hash": "002f1af91fa8e304299448dca487af8d33f5dc6737fe299cd082e030777d4767",
+        "nonce": 343,
+        "difficulty": 2,
+        "block_hash": "00dcb856c5441746a7792ba504863ef08087e17ee8f10d54526819f3405a145a"
+    }
+]
